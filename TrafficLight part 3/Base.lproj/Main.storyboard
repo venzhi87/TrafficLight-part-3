@@ -47,6 +47,9 @@
                                 <state key="normal" title="START">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="VL4-7g-awW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -60,10 +63,16 @@
                             <constraint firstItem="VuM-7E-UKH" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.47433" id="w4h-ZV-0tC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="DFD-5Q-WXl" id="dLc-sr-bSf"/>
+                        <outlet property="redLight" destination="MJG-Kl-hDH" id="let-yt-cva"/>
+                        <outlet property="startButton" destination="SaY-3S-1Ih" id="1vX-FY-PxZ"/>
+                        <outlet property="yellowLight" destination="VZF-ex-fT2" id="yMP-3y-MQl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+            <point key="canvasLocation" x="-29" y="-41"/>
         </scene>
     </scenes>
     <resources>
